@@ -1,0 +1,33 @@
+ body{
+		     margin:0;
+			 padding:0;
+			 background:#ccc
+		 }
+		 .navMENU ul {
+		         list-style:none;
+				 background:#000000;
+				 text-align: center;
+				 padding:0;
+				 margin:0;
+				 
+		 }
+		 .navMENU li {
+		          display:inline-block;
+		 }
+		 .navMENU a{
+		         text-decoration:none;
+                 color:#fff
+                 width:100px
+                 display:block;
+                 padding:15px;
+                 font-size:17px;
+                 font-family: Time New romain
+                 transition: 0.4s
+        .circle{
+                width: 200%;
+                height: 200%;
+                background: #fff;
+                margin: 10% auto;
+                border-radius: 50%;
+                position: relative;
+             }
