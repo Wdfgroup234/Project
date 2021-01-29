@@ -1,4 +1,33 @@
- body{
+figcaption {
+  color: yellow;
+  font-size: small;
+  text-align: center;
+  text-emphasis: text-emphasis-style
+}
+img {
+  border-radius: 10%;
+}
+ol{list-style-type: upper-roman;}
+
+
+a:link{
+  background-color: darksalmon;
+  text-decoration: underline;
+ 
+}
+a:visited {
+	background-color: darkorchid;
+	text-decoration: overline;
+}
+a:hover{
+  background-color: deeppink;
+  text-decoration:underline overline ;
+}
+a:active {
+	background-color: greenyellow;
+	text-decoration: line-through;
+} 
+{
 		     margin:0;
 			 padding:0;
 			 background:#ccc
