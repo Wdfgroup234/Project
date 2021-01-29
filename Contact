@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+     <head>
+      <meta charset="utf-8" />
+   <title>Lome Fragrance</title>
+   <link rel="stylesheet" href="style.css" />
+   <script src="js/html5shiv.js"></script>
+   
+   <style>
+   /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the send button with a specific background color etc */
+input[type=send] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the send button, add a darker green color */
+input[type=send]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+     </head>
+         <body bgcolor="gray">
+                 <center><h1><b><i>Lome Fragrance</i></b></h1>
+             <center><h3>No bottles to break – just hearts.</h3></center>
+			 
+			
+<div class="navMENU" >
+   <ul>
+      <li><a href="Home.html"> HOME</a> </li>
+	  <li><a href="Products.html"> PRODUCTS</a> </li>
+	  <li><a href="Jointheclub.html"> JOIN THE CLUB</a> </li>
+	  <li><a href="AboutUs.html"> ABOUT US</a> </li>
+        <li><a href="Contact.html"> CONTACT</a> </li>
+   </ul>
+       </div>
+	    <h3>Windhoek, Namibia</h3>
+		<h3><i>The Lomefragrance team is here to provide you with more information, answer any questions you may have. </i><h3>
+<h3>Lomefragrance@gmail.com</h3>
+     <h3>+264814327198</h3>
+	 <h3><i>Please complete the form below and we’ll make every effort to reply quickly and efficiently.</i></h3>
+	  <center><h1><b>LEAVE YOUR COMMENT</b></h1></center>
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+   
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="send" value="Send">
+
+  </form>
+</div>
+</body>
+</html>
